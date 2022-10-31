@@ -1,5 +1,8 @@
 public class TryingMethods {
 
+    public static void main(String[] args) {
+        
+    }
     public String dayOfWeek(int day) {
         // This method is supposed to have an integer and returns string,
         // and switch statement is used to return the day of the week
@@ -54,5 +57,33 @@ public class TryingMethods {
         }
     }
 
+    public static int ReturnSumLessthanOneThousand() {
+
+        // This method sums all the numbers from 1 to 1000
+        // and prints the sum of them
+
+        int sum = 0;
+        int slot = 1;
+        while (slot < 1000) {
+            sum += slot;
+            slot++;
+        }
+        return sum;
+    }
+
+    public static int ReturnsumEvenNumbers() {
+        // This method sums all the even numbers between 12 and 103
+        int sum = 0;
+        for (int i = 13; i < 103; i++) {
+            if (i % 2 == 0) {
+                sum += i;
+            }
+        }
+        return sum;
+    }
+
+    {
+
+    };
 
 }
