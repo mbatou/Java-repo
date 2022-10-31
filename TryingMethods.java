@@ -1,8 +1,7 @@
 public class TryingMethods {
-
     public static void main(String[] args) {
-        
     }
+
     public String dayOfWeek(int day) {
         // This method is supposed to have an integer and returns string,
         // and switch statement is used to return the day of the week
